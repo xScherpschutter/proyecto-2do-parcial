@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/menú.css">
+    <link rel="shortcut icon" href="icons/calculator_23810.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="grid">
+        <div id="particles-js"></div>
+        <div class="table">
+
+            <h1>Calculadora</h1>
+            <form action="">
+    <input class="input" type="text" id="entrada" placeholder="ingrese el dato a usar">
+    <table>
+        <tr>
+            <td> <button class="oper" type="button" onclick="calc.divisores()"> Divisores </button></td>
+            <td> <button class="oper" type="button" onclick="calc.invertirnum()">Invertir numero</button></td>
+            <td> <button class="oper" type="button" onclick="calc.primos()">Numero primo</button></td>
+            <td> <button class="oper" type="button" onclick="calc.perfectos()">Numero perfecto</button></td>
+            <td> <button class="oper" type="button" onclick="calc.fibonacci()">Serie de Fibonacci</button></td>
+        </tr>
+
+        <tr>
+            <td> <button class="oper" type="button" onclick="calc.Base10_2()">Base 10 a base 2</button></td>
+            <td> <button class="oper" type="button" onclick="calc.Base10_16()">Base 10 a base 16</button></td>
+            <td> <button class="oper" type="button" onclick="calc.Base10_8()">Base 10 a base 8</button></td>
+            <td> <button class="oper" type="button" onclick="calc.Base2_10()">Base 2 a base 10</button></td>
+            <td> <button class="oper" type="button" onclick="calc.Base2_16()">Base 2 a base 16</button></td>
+        </tr>
+        <tr>
+            <td> <button class="oper" type="button" onclick="calc.contar_palabras()">Contar palabras</button></td>
+            <td> <button class="oper" type="button" onclick="calc.palindromo()">Palindromos</button></td>
+            <td> <button class="oper" type="button" onclick="calc.invertir_frase()">Invertir frase</button></td>
+            <td> <button class="oper" type="button" onclick="calc.contar_caracteres()">Contar caracteres</button></td>
+            <td> <button class="oper" type="button" onclick="calc.buscar_cadena()">Buscar en cadena</button></td>
+        </tr>
+        <tr>
+            <td> <button class="oper" type="button" onclick="calc.mayor_de_arreglo()">Mayor de un arreglo</button></td>
+            <td> <button class="oper" type="button" onclick="calc.promedio_arreglo()">Promedio de arreglo</button></td>
+            <td> <button class="oper" type="button" onclick="calc.eliminar_arreglo()">Eliminar elemento de arreglo</button></td>
+            <td> <button class="oper" type="button" onclick="calc.insertar_arreglo()">Insertar elemento de arreglo</button></td>
+            <td> <button class="oper" type="button" onclick="calc.buscar_arreglo()">Buscar en arreglo</button></td>
+        </tr>        
+    </table>
+
+            <button type="reset" data-text="Awesome" class="button">
+                <span class="actual-text">&nbsp;clear&nbsp;</span>
+                <span class="hover-text" aria-hidden="true">&nbsp;clear&nbsp;</span>
+            </button>
+            </form>
+
+        </div>
+
+    </div>
+    
+
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/particlesjs-config.json"></script>
+    <script src="particles.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
